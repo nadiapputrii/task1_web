@@ -1,0 +1,640 @@
+body{
+    position: relative;
+    width: 1440px;
+    height: 4885px;
+    background: #FFFFFF;
+}
+header{
+    width: 1440px;
+    height: 756px;
+    left: 0px;
+    top: 74px;
+}
+nav{
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    top: 0;
+}
+h1{
+    position: absolute;
+    width: 124px;
+    height: 60px;
+    left: 30px;
+    top: 0px;
+    font-family: 'dancing script', Dancing Script;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    color: #F66250;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
+nav ul{
+    position: absolute;
+    top: 0px;
+    float: right;
+    right: 5%;
+}
+nav ul li{
+    display: block;
+    float: left;
+    margin: 0px 20px 0px 20px; 
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'roboto' ,roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+}
+nav ul button{
+    background-color: #f66250;
+    font-family: 'roboto', roboto;
+    font-size: 15px;
+    color: white;
+}
+.welcome{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
+.welcomekiri h2{
+    font-size: 35px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+    text-shadow: 1.44848px 1.44848px 1.44848px rgba(0, 0, 0, 0.5);
+}
+h6{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;  
+    color: white;
+}
+.welcomekiri p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    color: white;
+}  
+div button{
+    background-color: #f66250;
+    font-family: 'roboto', roboto;
+    font-size: 15px;
+    color: white;
+ 
+}
+.About{
+    text-align: center;
+}
+.About h3{
+    position: absolute;
+    font-family: Roboto;
+    font-size: 25px;
+    width: 709px;
+    height: 207px;
+    left: 380px;
+    top: 830px;
+}
+.About p{
+    position: absolute;
+    text-align: center;
+    float: center;
+    color: black;
+    width: 709px;
+    height: 207px;
+    left: 379px;
+    top: 880px;
+}
+.Community{
+    position: absolute;
+    width: 1440px;
+    height: 471px;
+    left: 0px;
+    top: 1132px;
+    background: #F8F8F8;
+}
+.Community h3{
+    position: absolute;
+    width: 231px;
+    height: 39px;
+    left: 787px;
+    top: 80px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 33px;
+    line-height: 39px;
+}
+.Community p{
+    position: absolute;
+    width: 396px;
+    height: 92px;
+    left: 787px;
+    top: 153px;
+    font-family: 'roboto', roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 23px;
+}
+.Community button{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 787px;
+    top: 276px;
+}
+.Community img{
+    position: absolute;
+    width: 610px;
+    height: 348px;
+    left: 97px;
+    top: 52px;
+    background: url(bg2.png);
+    border-radius: 10px;
+}
+.Mission{
+    position: absolute;
+    width: 459px;
+    height: 207.44px;
+    left: 70px;
+    top: 1743px;
+}
+.Mission h3{
+    position: absolute;
+    width: 178px;
+    height: 39px;
+    left: 191px;
+    top: 120px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 33px;
+    line-height: 39px;
+    text-align: center;
+    color: #000000;
+}
+.Mission p{
+    position: absolute;
+    width: 457px;
+    height: 97px;
+    left: 193px;
+    top: 200px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 23px;
+    color: #ACACAC;
+}
+.Mission button{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 191px;
+    top: 296px;
+}
+.Mission img{
+    position: absolute;
+    width: 610px;
+    height: 348px;
+    left: 700px;
+    top: 70px;
+    background: url(image.png);
+    border-radius: 10px;
+}
+.System{
+    position: absolute;
+    width: 1440px;
+    height: 508px;
+    left: 0px;
+    top: 2265px;
+    background: #F8F8F8;
+
+}
+.Systemkanan{
+    position: absolute;
+    width: 369px;
+    height: 176.44px;
+    left: 700px;
+    top: 30px;    
+}
+.Systemkanan h4{
+    position: absolute;
+    width: 200px;
+    height: 207.44px;
+    left: 180px;
+    top: 140px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 39px;
+    text-align: center;
+    color: #000000;
+}
+.Systemkanan p{
+    position: absolute;
+    width: 457px;
+    height: 97px;
+    left: 193px;
+    top: 250px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 23px;
+    color: #ACACAC;
+}
+.Systemkanan button{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 191px;
+    top: 320px;
+}
+.Systemkiri{
+    position: absolute;
+    width: 502px;
+    height: 450.38px;
+    left: 50px;
+    top: 100px;
+}
+.Step1{
+    position: absolute;
+    width: 502px;
+    height: 183px;
+    left: 208px;
+    top: 5px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+}
+.Step2{
+    position: absolute;
+    width: 502px;
+    height: 183px;
+    left: 208px;
+    top: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+}
+.Step1 h2{
+    position: absolute;
+    width: 113.75px;
+    height: 27.66px;
+    left: 29px;
+    top: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+.Step1 h3{
+    position: absolute;
+    width: 272.99px;
+    height: 21.08px;
+    left: 29px;
+    top: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.Step1 p{
+    position: absolute;
+    width: 439.82px;
+    height: 181.78px;
+    left: 29px;
+    top: 70px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.Step1 a{
+    position: absolute;
+    width: 272.99px;
+    height: 21.08px;
+    left: 29px;
+    top: 150px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #A889D8;
+}
+.Step2 h2{
+    position: absolute;
+    width: 113.75px;
+    height: 27.66px;
+    left: 29px;
+    top: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+.Step2 h3{
+    position: absolute;
+    width: 272.99px;
+    height: 21.08px;
+    left: 29px;
+    top: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.Step2 p{
+    position: absolute;
+    width: 439.82px;
+    height: 181.78px;
+    left: 29px;
+    top: 70px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.Step2 a{
+    position: absolute;
+    width: 272.99px;
+    height: 21.08px;
+    left: 29px;
+    top: 150px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #A889D8;
+}
+.Staff h1{
+    position: absolute;
+    width: 210px;
+    height: 39px;
+    left: 632px;
+    top: 593px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 33px;
+    line-height: 39px;
+    text-align: center;
+    color: #000000;
+}
+.Staff p{
+    position: absolute;
+    width: 644px;
+    height: 147px;
+    left: 415px;
+    top: 662px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+    color: #ACACAC;
+}
+
+Section{
+    position: absolute;
+    width: 1028px;
+    height: 335px;
+    left: 76px;
+    top: 772px;
+}
+.Rara img{
+    position: absolute;
+    width: 320px;
+    height: 237px;
+    left: 206px;
+    top: 10px;
+}
+.Rara h2{
+    position: absolute;
+    width: 47px;
+    height: 27px;
+    left: 345px;
+    top: 234px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+}
+.Rara p{
+    position: absolute;
+    width: 98px;
+    height: 21px;
+    left: 319px;
+    top: 276px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #ACACAC;
+}
+.Lala img{
+    position: absolute;
+    width: 319px;
+    height: 237px;
+    left: 560px;
+    top: 10px;
+}
+.Lala h2{
+    position: absolute;
+    width: 42px;
+    height: 27px;
+    left: 699px;
+    top: 234px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+}
+.Lala p{
+    position: absolute;
+    width: 159px;
+    height: 21px;
+    left: 640px;
+    top: 276px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #ACACAC;
+}
+.Nana img{
+    position: absolute;
+    width: 319px;
+    height: 240px;
+    left: 915px;
+    top: 10px;
+}
+.Nana h2{
+    position: absolute;
+    width: 54px;
+    height: 27px;
+    left: 1047px;
+    top: 234px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+}
+.Nana p{
+    position: absolute;
+    width: 118px;
+    height: 21px;
+    left: 1016px;
+    top: 276px;
+    font-family: Roboto;    
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #ACACAC;
+}
+.Testi{
+    position: absolute;
+    width: 1440px;
+    height: 206px;
+    left: 0px;
+    top: 1300px;
+}
+.Testi h2{
+    position: absolute;
+    width: 454px;
+    height: 150px;
+    left: 493px;
+    top: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.Testi p{
+    position: absolute;
+    width: 430px;
+    height: 46px;
+    left: 505px;
+    top: 200px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.Testi img{
+    position: absolute;
+    width: 1440px;
+    height: 480px;
+    left: 0px;
+    top: 3px;
+}
+.Testimonials h2{
+    position: absolute;
+    width: 186px;
+    height: 39px;
+    left: 627px;
+    top: 1987px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 33px;
+    line-height: 39px;
+    text-align: center;
+    color: #000000;
+}
+.fond{
+    position: absolute;
+    width: 487px;
+    height: 169px;
+    left: 213px;
+    top: 2200px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+}
+.fond1{
+    position: absolute;
+    width: 487px;
+    height: 169px;
+    left: 213px;
+    top: 2420px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+}
+.fond2{
+    position: absolute;
+    width: 487px;
+    height: 169px;
+    left: 731px;
+    top: 2200px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+}
+.fond3{
+    position: absolute;
+    width: 487px;
+    height: 169px;
+    left: 731px;
+    top: 2420px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+}
+footer h6{
+    position: absolute;
+    width: 550px;
+    height: 35px;
+    left: 445px;
+    top: 5319px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #ACACAC;
+}
